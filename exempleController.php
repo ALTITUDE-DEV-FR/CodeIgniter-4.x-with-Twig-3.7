@@ -19,7 +19,7 @@ class YourController extends BaseController{
       $twig = twig(true, true);
   
       // dont forget to make a page here and base.twig and more please follow official documentation to make template.
-      return $twig->render('pages/singlepage.twig', $data);
+      return $twig->render('pagexemple.twig', $data);
     }
   
 }
