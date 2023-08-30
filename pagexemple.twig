@@ -1,0 +1,23 @@
+{% extends 'base.twig' %}
+
+{# {% block header %}
+    {{ parent() }}
+    // contenu inject in header |spaceless ttl(300)
+{% endblock %} #}
+
+{% block content %}
+
+    {# {% cache "cache key" %} #}
+        {{ page_content|raw }}
+    {# {% endcache %} #}
+
+    {# <pre>
+        {{ dump(title) }}
+    </pre> #}
+
+{% endblock %}
+
+{# {% block footer %}
+    {{ parent() }}
+     // contenu inject in footer
+{% endblock %} #}
