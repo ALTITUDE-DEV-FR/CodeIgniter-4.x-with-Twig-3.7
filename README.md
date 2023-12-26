@@ -1,5 +1,5 @@
-# codeigniter4.4-twig3.7
-Twig 3.7.1 with modules in CodeIgniter 4.4
+# CodeIgniter 4 Twig 3.7
+Twig 3.7.1 with modules in CodeIgniter 4.x
 
 Version 3.7.1 (latest)
 
