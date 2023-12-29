@@ -20,3 +20,6 @@ Exemples powered by my own CMS
 
 # Theme Defined
 https://i.imgur.com/NjUQEPt.png
+
+# Controller example
+https://i.imgur.com/C68bXVq.png
