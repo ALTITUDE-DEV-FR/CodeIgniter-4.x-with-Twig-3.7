@@ -1,5 +1,7 @@
 <?php 
 
+// This file is present in ThirdParty/TwigExtensions/JsonDecodeExtension.php
+
 namespace App\ThirdParty\TwigExtensions;
 
 use Twig\Extension\AbstractExtension;
