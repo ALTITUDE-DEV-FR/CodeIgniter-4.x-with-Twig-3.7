@@ -16,6 +16,9 @@ second true = well optimised or no --1 or 0
 
 ! do not forget to make your base.TWIG for made a template ;)
 
+Warning Tips:
+If you make a modules in your APP CI, do not define a render route to APP/PATH/THEME becauses the modules use others routes and controllers directory, in my exemple you have a possibility to change the render final view in controller directly
+
 Exemples powered by my own CMS 
 
 # Theme Defined
