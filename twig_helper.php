@@ -39,15 +39,12 @@ if (! function_exists('twig')) {
 
         /*
         * Global Defines CI > Twig
+        * ex your define('PHPV', phpversion()); 
+        * use $twig->addGlobal('phpversion', phpversion()); 
+         *is now available in twig template with : {{ phpversion }}
         */
-        $twig->addGlobal('TTLCONTENT', CACHE_TIME);
-        $twig->addGlobal('THEME', THEME);
-        $twig->addGlobal('RGPD_NOTICE', RGPD_NOTICE);
-        $twig->addGlobal('MATOMO_ID', MATOMO_ID);
-        $twig->addGlobal('LANGAVAILABLE', LANGAVAILABLE);
-        $twig->addGlobal('LANGSELECTOR', LANGSELECTOR);
-        $twig->addGlobal('SINGLENEWS_PATH', SINGLENEWS_PATH);
-
+        $twig->addGlobal('TTLCONTENT', );
+        
         /*
         * Functions CI > Twig
         */
